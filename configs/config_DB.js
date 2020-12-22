@@ -7,4 +7,4 @@ module.exports = {
     }
 
 };
-module.exports = DBconfigs.clouddb;
+module.exports = config_DB.clouddb;

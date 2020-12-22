@@ -1,11 +1,4 @@
 module.exports = {
-    localdb: {
-        urldb : 'mongodb://localhost:27017/shopsmall',
-        dbname : "shopsmall",
-        dbusername : "",
-        dbpassword : "",
-    },
-
     clouddb: {
         urldb : 'mongodb+srv://trungshin_6969:QK3xrnkUn8MUUBUw@cluster0.krj6n.mongodb.net/shopsmall?retryWrites=true&w=majority',
         dbname : "shopsmall",
@@ -14,3 +7,4 @@ module.exports = {
     }
 
 };
+module.exports = DBconfigs.clouddb;
